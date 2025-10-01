@@ -1,0 +1,62 @@
+/* estilo geral */
+body { 
+    padding-top: 72px; 
+    font-family: Arial, sans-serif; 
+    background:#f8f9fa; 
+    color:#222; 
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+.navbar-brand { color:#00bfff !important; font-weight:700; letter-spacing:0.2px; }
+.nav-link { color: #fff !important; }
+.nav-link:hover { color: #00bfff !important; }
+
+/* Carousel */
+.carousel-item img { 
+    width:100%; 
+    height: 70vh; 
+    object-fit: cover; 
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.45);
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+}
+.carousel-caption h1, .carousel-caption h5 { text-shadow: 1px 2px 6px rgba(0,0,0,0.6); }
+
+/* Pricing */
+.pricing .card { border-radius: 12px; transition: transform .25s, box-shadow .25s; }
+.pricing .card:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.12); }
+.pricing .card-header { background: transparent; border-bottom: none; }
+
+/* destaque plano mensal */
+.pricing .recommended {
+    border: 2px solid #0d6efd;
+    box-shadow: 0 10px 25px rgba(13,110,253,0.08);
+}
+
+/* feature icons */
+.feature-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:#00bfff;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    margin: 0 auto 18px;
+    transition: transform .2s, box-shadow .2s;
+}
+.feature-icon:hover { transform: scale(1.06); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+
+/* Footer */
+footer { background:#111; color:#bbb; padding:28px 0; margin-top:40px; }
+footer a { color:#00bfff; margin:0 8px; text-decoration:none; }
+footer a:hover { color:#fff; }
